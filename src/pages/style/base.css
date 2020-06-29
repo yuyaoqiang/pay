@@ -1,0 +1,202 @@
+.secContainer {
+  padding-top: 260px;
+}
+.secContainer .headerList {
+  top: 170px;
+}
+.container {
+  padding-top: 240px;
+}
+.container .headerList {
+  top: 170px;
+}
+.container,
+.secContainer {
+  width: 100%;
+  height: 100%;
+  background-color: #f0eff5;
+}
+.container .content,
+.secContainer .content {
+  height: 100%;
+  background-color: #f0eff5;
+}
+.container .headerList,
+.secContainer .headerList {
+  position: fixed;
+  width: 100%;
+  z-index: 11;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.container .headerList :global .am-list-body,
+.secContainer .headerList :global .am-list-body {
+  display: flex;
+  background-color: #fff;
+}
+.container .headerList :global .am-list-body .am-list-extra,
+.secContainer .headerList :global .am-list-body .am-list-extra {
+  width: 200px;
+  flex: 1;
+}
+.container .headerList :global .am-list-body .am-list-item,
+.secContainer .headerList :global .am-list-body .am-list-item {
+  padding-left: 0;
+}
+.container :global .am-navbar,
+.secContainer :global .am-navbar,
+.container :global .am-search,
+.secContainer :global .am-search {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.container :global .am-navbar,
+.secContainer :global .am-navbar {
+  top: 0;
+}
+.container :global .am-search,
+.secContainer :global .am-search {
+  top: 88px;
+  background-color: #fff;
+  border-bottom: 1px solid #efeff4;
+}
+.container :global .am-search-input,
+.secContainer :global .am-search-input {
+  background-color: #efeff4;
+}
+.container :global .am-card-header-content,
+.secContainer :global .am-card-header-content {
+  font-size: 24px;
+}
+.container :global .am-list-item .am-list-line .am-list-content,
+.secContainer :global .am-list-item .am-list-line .am-list-content {
+  color: #66666e;
+}
+.container :global .am-card-header,
+.secContainer :global .am-card-header {
+  font-size: 28px;
+}
+.container :global .am-card-header-content,
+.secContainer :global .am-card-header-content {
+  font-size: 28px;
+  font-weight: 500;
+}
+.container :global .am-card-header-content span,
+.secContainer :global .am-card-header-content span {
+  margin-right: 10px;
+}
+.container :global .am-card-body,
+.secContainer :global .am-card-body {
+  font-size: 24px;
+  color: #66666e;
+}
+.container :global .am-card-body p,
+.secContainer :global .am-card-body p {
+  margin-bottom: 10px;
+}
+.container :global .am-card,
+.secContainer :global .am-card {
+  box-shadow: 0px 4px 20px 0px rgba(112, 112, 112, 0.2);
+}
+.container :global .am-card-header-extra,
+.secContainer :global .am-card-header-extra {
+  flex: 0;
+}
+.container :global .am-pull-to-refresh-transition,
+.secContainer :global .am-pull-to-refresh-transition {
+  background: rgba(255, 255, 255, 0);
+}
+.container :global .am-pull-to-refresh-transition .am-list-footer,
+.secContainer :global .am-pull-to-refresh-transition .am-list-footer {
+  background: rgba(255, 255, 255, 0);
+  text-align: center;
+  font-size: 24px;
+}
+.container :global .am-list-item .am-list-line .am-list-extra,
+.secContainer :global .am-list-item .am-list-line .am-list-extra,
+.container :global .am-list-item select,
+.secContainer :global .am-list-item select {
+  font-size: 24px;
+  color: #66666E;
+}
+.container :global .am-list-item .am-list-line .am-list-arrow,
+.secContainer :global .am-list-item .am-list-line .am-list-arrow {
+  width: 16px;
+  height: 16px;
+}
+.container :global .am-list-body,
+.secContainer :global .am-list-body {
+  border: none;
+  background-color: #f0eff5;
+}
+.container :global .am-search-input input[type="search"],
+.secContainer :global .am-search-input input[type="search"] {
+  font-size: 24px;
+}
+.container :global .am-list-item .am-input-control input,
+.secContainer :global .am-list-item .am-input-control input {
+  font-size: 24px;
+  color: #66666e;
+}
+.container .tag :global .am-badge-text,
+.secContainer .tag :global .am-badge-text {
+  margin-left: 12px;
+  padding: 0 16px;
+  color: #3e8de7;
+  background-color: rgba(62, 141, 231, 0.15);
+  border-radius: 5px;
+  font-size: 20px;
+}
+.container .blueColor,
+.secContainer .blueColor {
+  font-size: 24px;
+  color: #3e8de7;
+}
+.container .action,
+.secContainer .action {
+  justify-content: flex-end;
+  margin-top: 24px;
+}
+.container .action :global .am-button-small,
+.secContainer .action :global .am-button-small {
+  border-radius: 40px;
+  margin-left: 20px;
+  font-size: 24px;
+  min-width: 170px;
+}
+.container .action :global .am-button,
+.secContainer .action :global .am-button {
+  color: #3e8de7;
+  border-color: #3e8de7;
+}
+.container .action :global .am-button-primary,
+.secContainer .action :global .am-button-primary {
+  color: #fff;
+}
+.blockMiddle span,
+.blockMiddle .icon {
+  font-size: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.blockMiddle :global .am-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+:global .am-list-item {
+  padding: 0;
+}
+:global .am-list-line {
+  padding: 0 20px;
+}
+:global .am-list-item .am-list-content {
+  font-size: 30px;
+  color: #33333e;
+}
+:global .am-list-item .am-list-content .am-icon {
+  margin-right: 16px;
+}

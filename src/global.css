@@ -1,0 +1,55 @@
+html,
+body,
+#root {
+  -webkit-text-size-adjust: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+/* iphonex 安全区域 */
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #fff !important;
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+  font-family: PingFangSC, '苹方简', Avenir, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+/* iphonex fix底部元素适配 */
+:global(.fixed_bottom) {
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+  position: fixed;
+  z-index: 10;
+  background-color: #fff;
+}
+:global(.clearfix:after) {
+  content: '';
+  display: table;
+  clear: both;
+}
+.blockMiddle span,
+.blockMiddle .icon {
+  font-size: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.blockMiddle :global .am-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+:global .am-list-item {
+  padding: 0;
+}
+:global .am-list-line {
+  padding: 0 20px;
+}
+:global .am-list-item .am-list-content {
+  font-size: 30px;
+  color: #33333e;
+}
+:global .am-list-item .am-list-content .am-icon {
+  margin-right: 16px;
+}

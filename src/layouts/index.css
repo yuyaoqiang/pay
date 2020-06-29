@@ -1,0 +1,9 @@
+.blockMiddle span,
+.blockMiddle .icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+.blockMiddle :global .am-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
